@@ -1,0 +1,46 @@
+{
+  "version": "2.0-full",
+  "device": "AMDA DLMS 2x4 RTA",
+  "presets": [
+    {
+      "id": "flat",
+      "name": "Flat / Default",
+      "desc": "Bypass all"
+    },
+    {
+      "id": "live",
+      "name": "Live SR 2-Way",
+      "desc": "Out 1-2 High, Out 3-4 Low"
+    },
+    {
+      "id": "sub_top",
+      "name": "Sub + Top",
+      "desc": "Out 1-2 Full, Out 3-4 Sub 80Hz"
+    },
+    {
+      "id": "monitor",
+      "name": "Monitor + FOH",
+      "desc": "Stage monitor + main"
+    },
+    {
+      "id": "club",
+      "name": "Club 3-Way",
+      "desc": "High/Mid/Low"
+    }
+  ],
+  "routing": {
+    "A": [
+      1,
+      2
+    ],
+    "B": [
+      3,
+      4
+    ]
+  },
+  "default_crossover": {
+    "hpf": 40,
+    "lpf": 18000,
+    "type": "LR24"
+  }
+}
