@@ -1,0 +1,16 @@
+{
+  "name": "AMDA DLMS 2x4 RTA Controller",
+  "short_name": "AMDA DLMS",
+  "description": "Full Controller for AMDA DLMS 2x4 RTA - Digital Loudspeaker Management System",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ff3b00",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/138/138817.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
